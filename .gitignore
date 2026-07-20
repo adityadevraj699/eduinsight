@@ -1,0 +1,38 @@
+# ---- Backend (Java / Maven / Spring Boot) ----
+backend/target/
+backend/.mvn/
+backend/*.log
+backend/HELP.md
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- Frontend (Node / React) ----
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# ---- Env / Secrets ----
+.env
+.env.*
+!.env.example
+application-secrets.yml
+
+# ---- Docker ----
+docker/volumes/
+
+# ---- Misc ----
+*.tmp
+*.bak
+.cache/
