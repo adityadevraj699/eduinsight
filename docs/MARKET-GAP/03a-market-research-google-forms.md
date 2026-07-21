@@ -1,26 +1,26 @@
 # Market Research — Google Forms
 
-## Kya hai
-Google ka free, general-purpose form builder. Zyadatar colleges isi se student feedback collect karte hain kyunki free hai aur Google Workspace for Education me already available hai.
+## What It Is
+Google's free, general-purpose form builder. Most colleges use it to collect student feedback because it's free and already available within Google Workspace for Education.
 
 ## Feature Findings
 | Area | Finding |
 |---|---|
-| Data collection | Structured (MCQ, rating, linear scale) + free-text — dono support karta hai |
-| Analysis | Sirf basic auto-summary charts (bar/pie) aur average — koi AI/NLP nahi |
-| Sentiment analysis | ❌ Bilkul nahi. Free-text comments sirf raw list ki tarah dikhte hain, koi theme grouping nahi |
-| Roles/RBAC | ❌ Nahi. Sirf "form owner" vs "responder" — Faculty/HOD/Admin jaisa role-based access system hi nahi hai |
-| Multi-tenant | ❌ Nahi — ek institution ke liye ek Google account/workspace, cross-department aggregation manual (Sheets me karna padta hai) |
-| Notifications | Sirf naya response aane par owner ko email — faculty ko "insight ready hai" wala loop nahi |
-| Reports | CSV/Sheets export possible, but koi comparative/trend report engine nahi |
-| Cost | Free (Workspace for Education ke saath) |
-| Integration | Koi LMS/SIS integration nahi |
+| Data collection | Supports both structured (MCQ, rating, linear scale) and free-text responses |
+| Analysis | Only basic auto-summary charts (bar/pie) and averages — no AI/NLP |
+| Sentiment analysis | ❌ None at all. Free-text comments appear as a raw list with no theme grouping |
+| Roles/RBAC | ❌ None. Only "form owner" vs. "respondent" — no Faculty/HOD/Admin role-based access system exists |
+| Multi-tenant | ❌ No — one institution uses one Google account/workspace; cross-department aggregation must be done manually (in Sheets) |
+| Notifications | Only an email to the owner when a new response arrives — no "insight ready" loop for faculty |
+| Reports | CSV/Sheets export is possible, but there's no comparative/trend reporting engine |
+| Cost | Free (with Workspace for Education) |
+| Integration | No LMS/SIS integration |
 
-## Kya missing hai (Gap)
-1. Koi AI/sentiment layer nahi — sirf raw averages.
-2. Role-based dashboards (Faculty/HOD/Admin) ka concept hi exist nahi karta.
-3. Trend tracking across semesters/years manually Excel me karna padta hai.
-4. Anonymity control basic hai (form owner sab dekh sakta hai — legal/anonymity requirement handle nahi hota).
+## What's Missing (Gap)
+1. No AI/sentiment layer — only raw averages.
+2. The concept of role-based dashboards (Faculty/HOD/Admin) doesn't exist at all.
+3. Trend tracking across semesters/years has to be done manually in Excel.
+4. Anonymity control is basic — the form owner can see everything, so legal/anonymity requirements aren't handled.
 
-## EduInsight ke liye Takeaway
-Google Forms ek collection tool hai, intelligence tool nahi. EduInsight ka differentiation exactly yahi gap fill karta hai — AI sentiment + role-based reports + notification loop, jo Forms me bilkul nahi hai.
+## Takeaway for EduInsight
+Google Forms is a collection tool, not an intelligence tool. EduInsight's differentiation fills exactly this gap — AI sentiment analysis, role-based reports, and a notification loop, none of which Forms offers.
