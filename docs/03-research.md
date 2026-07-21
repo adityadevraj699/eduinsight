@@ -75,12 +75,31 @@ For each tool, we answer:
 
 ## Answers to the 6 Research Questions (Across Tier 1 Tools)
 
-1. **Who is it built for?** All four are built for generic form creation or course delivery — none has a concept of Faculty, HOD, and Admin as distinct dashboard consumers with different views.
-2. **How is feedback collected?** All support both rating scales and free text — collection itself is a solved problem industry-wide.
-3. **What happens after collection?** Google/MS Forms: basic charts only. Moodle: tabulated summary. Canvas: basic quiz statistics. None of the four do any language understanding of the comments — the free-text field is where all the useful information dies.
-4. **Roles/permissions?** Only Moodle and Canvas have any role system at all, and it exists for LMS administration, not feedback intelligence — none give a HOD a "compare all faculty in my department" view.
-5. **AI/NLP layer?** None of the four have one natively (Canvas can bolt one on via expensive third-party add-ons).
-6. **What would Faculty complain about after a semester?** Across all four: *"I got a number, not an explanation. I don't know what to change, and I only saw the data because someone manually sent it to me."*
+**1. Who is it built for?**
+- All four are built for generic form creation or course delivery.
+None has a concept of Faculty, HOD, and Admin as distinct dashboard consumers with different views.
+
+**2. How is feedback collected?**
+- All support both rating scales and free text.
+Collection itself is a solved problem industry-wide.
+
+**3. What happens after collection?**
+- Google/MS Forms: basic charts only.
+- Moodle: tabulated summary.
+- Canvas: basic quiz statistics.
+- None of the four do any language understanding of the comments — the free-text field is where all the useful information dies.
+
+**4. Roles/permissions?**
+- Only Moodle and Canvas have any role system at all, and it exists for LMS administration, not feedback intelligence.
+- None give a HOD a "compare all faculty in my department" view.
+
+**5. AI/NLP layer?**
+- None of the four have one natively.
+- Canvas can bolt one on via expensive third-party add-ons.
+
+**6. What would Faculty complain about after a semester?**
+- Across all four:
+    - "I got a number, not an explanation. I don't know what to change, and I only saw the data because someone manually sent it to me."
 
 ---
 
