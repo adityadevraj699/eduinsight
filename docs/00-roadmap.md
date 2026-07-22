@@ -6,7 +6,16 @@ done.
 ## Phase 0 — Planning (Week 1, no coding)
 - [x] [01 — Problem Statement](./01-problem-statement.md)
 - [x] [02 — Requirement Analysis](./02-requirements.md)
-- [ ] [03 — Research](./03-research.md) *(fill in "Your Findings" yourself)*
+- [x] [03 — Market Research Summary](./03-market-research-summary.md) — index table linking to all research below
+  - Tier 1 — Basic form tools:
+    - [MARKET-GAP/03a — Google Forms](./MARKET-GAP/03a-market-research-google-forms.md)
+    - [MARKET-GAP/03b — Microsoft Forms](./MARKET-GAP/03b-market-research-microsoft-forms.md)
+    - [MARKET-GAP/03c — Moodle Feedback](./MARKET-GAP/03c-market-research-moodle-feedback.md)
+    - [MARKET-GAP/03d — Canvas LMS](./MARKET-GAP/03d-market-research-canvas-lms.md)
+  - Tier 2 & 3 — the important gaps:
+    - [MARKET-GAP/03e — AI-Native Competitors](./MARKET-GAP/03e-market-research-ai-native-competitors.md) ⚠️ closes the "no AI competitor" gap
+    - [MARKET-GAP/03f — India ERP/NAAC-NBA Players](./MARKET-GAP/03f-market-research-india-erp-players.md) ⚠️ critical for India market
+  - [MARKET-GAP/03g — Market Gap Analysis & Project Review](./MARKET-GAP/03g-market-gap-analysis-and-project-review.md) — final positioning + recommendations
 - [x] [04 — Feature List & Tech Stack](./04-feature-list-and-tech-stack.md)
 
 ## Phase 1 — Database Design (Week 2)
@@ -56,11 +65,20 @@ Criteria)*
 
 ---
 
-## Tonight's Task (per the plan)
-Only these three, no coding:
+## Open Item — Pending Decision
+Per the market gap analysis (`MARKET-GAP/03g`), consider revisiting
+`01-problem-statement.md` to:
+- Update the competitor table to include Tier 2 (Explorance, Watermark,
+  Qualtrics, Perspective AI) and Tier 3 (Camu, EduSys, LearnQoch) players,
+  not just basic form tools.
+- Reframe positioning as **"India-first, accreditation-aware feedback
+  intelligence platform"**.
+- Add a NAAC/NBA evidence-export feature to the roadmap (future phase).
+
+## Status: Phase 0 Complete ✅
 - [x] Problem Statement
 - [x] Requirement Analysis
-- [x] Feature List
+- [x] Market Research (all tiers, including AI-native and India ERP competitors)
+- [x] Feature List & Tech Stack
 
-Tomorrow: fill in Research (`03-research.md`) with your own findings, then
-move to Database Design if not already sufficiently detailed above.
+Next: Database Design (`05-database.md`) → draw ER diagram in draw.io.
